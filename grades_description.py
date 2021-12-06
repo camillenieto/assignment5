@@ -35,7 +35,7 @@ def grade_percentage(grade) :
                                             
 #steps
 #1.ask for grade percentage. 
-grade_func = float(input("Input grade: "))   
+grade_func = round(float(input("Input grade: ")))
 #2.display the equivalent Grade/Mark and Description
 print(grade_percentage(grade_func))
                    
